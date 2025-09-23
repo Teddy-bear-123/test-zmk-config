@@ -5,8 +5,6 @@ manifest:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
     - name: keeb-it
-      url-base: https://github.com/zmkfirmware
-    - name: keeb-it
       url-base: https://github.com/keeb-it
   projects:
     - name: zmk
