@@ -23,7 +23,7 @@
             >;
         };
 
-        nav_layer {
+        raise_layer{
             display-name = "nav";
 // -----------------------------------------------------------------------------------------
 // |  ESC |  1  |  2  |  3  |  4  |  5  |   |  6  |  7  |  8  |  9  |  0  | BSPC |
@@ -38,7 +38,7 @@
             >;
         };
 
-        sym_layer {
+        lower_layer{
             display-name = "sym";
 // -----------------------------------------------------------------------------------------
 // |  ESC |  1  |  2  |  3  |  4  |  5  |   |  6  |  7  |  8  |  9  |  0  | BSPC |
@@ -53,7 +53,7 @@
             >;
         };
 
-        func_layer {
+        extra_layer0 {
             display-name = "func";
 // -----------------------------------------------------------------------------------------
 // |  F1  |  F2 |  F3 |  F4 |  F5 |  F6 |   |  F7 |  F8 |  F9 | F10 | F11 | F12 |
@@ -66,11 +66,6 @@
 &trans &trans &trans &trans &trans &trans    &trans &trans &trans &trans &trans  &trans
                         &kp LALT &trans &kp SPACE   &kp LGUI &trans &kp LCTRL
             >;
-        };
-
-        extra_layer0 {
-            display-name = "extra_layer0";
-            status = "reserved";
         };
 
         extra_layer1 {
